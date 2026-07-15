@@ -1,0 +1,4 @@
+# Runtime logs and source maps are never part of a Marketplace release.
+logs/
+*.log
+*.js.map
