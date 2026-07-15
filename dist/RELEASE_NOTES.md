@@ -1,6 +1,13 @@
-# Window Manager 0.1.0.0
+# Window Manager 0.2.0.0
 
-Initial release of Window Manager for Stream Deck +.
+## What's new
+
+- Improved snap-action reliability when rotating quickly or using Dial Stacks.
+- Preserve each dial's restore point while switching between snap positions.
+- Restore the correct pre-snap window bounds after a touch-strip tap.
+- Correctly render customized backgrounds and icons on touch-strip controls.
+
+## Features
 
 - Move the focused window horizontally or vertically with encoder dials.
 - Resize the focused window horizontally or vertically from its center.
