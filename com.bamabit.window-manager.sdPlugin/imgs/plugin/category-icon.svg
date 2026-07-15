@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none">
-  <!-- A tiled window layout: intentionally bold for Stream Deck's 28 px sidebar icon. -->
-  <rect x="6" y="8" width="44" height="40" rx="7" stroke="#F8FAFC" stroke-width="5"/>
-  <path d="M6 20h44M28 20v28" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
-  <path d="M16 30h8M36 30h4" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-  <path d="M16 39h8M36 39h4" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
-</svg>
