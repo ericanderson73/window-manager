@@ -13,7 +13,6 @@
 			"key": "icon",
 			"type": "pixmap",
 			"rect": [52, 2, 96, 96],
-			"value": "imgs/actions/dials/move-horizontal.svg",
 			"zOrder": 1
 		}
 	]

@@ -36,10 +36,11 @@ export async function applyButtonBackground(action: ImageAction, icon: string, b
 	const recoloredSvg = /^#[0-9a-f]{6}$/i.test(backgroundColor ?? "")
 		? svg.replace(/(<circle\b[^>]*\bfill=")[^"]+("[^>]*>)/, `$1${backgroundColor}$2`)
 		: svg;
+	const iconDataUri = `data:image/svg+xml;base64,${Buffer.from(recoloredSvg).toString("base64")}`;
 
 	// Feedback properties address the named pixmaps in the touch-strip layout.
 	await action.setFeedback?.({
 		background: { background: getButtonBackground(backgroundColor) },
-		icon: recoloredSvg,
+		icon: iconDataUri,
 	});
 }
